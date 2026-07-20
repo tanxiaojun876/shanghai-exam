@@ -1,0 +1,5 @@
+# 不把试卷 PDF 上传到 Git 仓库
+papers/*.pdf
+
+# 忽略 VS Code 的个人配置
+.vscode/

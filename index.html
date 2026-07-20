@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>上海一模二模资料库</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>
+        <h1>上海一模二模资料库</h1>
+        <p>免费、开源的上海高中试卷资料平台</p>
+    </header>
+
+    <main>
+        <section class="filter-area">
+    <h2>查找试卷</h2>
+
+    <div class="filters">
+    <label>
+        关键词
+        <input
+            type="text"
+            id="keywordInput"
+            placeholder="搜索试卷名称、地区或科目"
+        >
+    </label>
+
+    <label>
+        年份
+        <select id="yearFilter"></select>
+    </label>
+
+    <label>
+        地区
+        <select id="districtFilter"></select>
+    </label>
+
+    <label>
+        年级
+        <select id="gradeFilter"></select>
+    </label>
+
+    <label>
+        科目
+        <select id="subjectFilter"></select>
+    </label>
+
+    <label>
+        类型
+        <select id="typeFilter"></select>
+    </label>
+</div>
+    <button id="resetFilters" class="reset-btn">
+    清空筛选
+</button>
+</section>
+
+        <section>
+            <div class="list-heading">
+    <h2>试卷资料</h2>
+    <p id="resultCount"></p>
+</div>
+
+            <div id="paperList"></div>
+
+            <p id="noResult">没有找到符合条件的试卷。</p>
+        </section>
+    </main>
+
+    <script src="data.js"></script>
+<script src="script.js"></script>
+
+</body>
+</html>
