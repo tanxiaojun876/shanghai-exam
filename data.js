@@ -12,8 +12,8 @@ const papers = [
         grade: "高三",
         subject: "数学",
         type: "一模",
-        paperUrl: "papers/sample-paper.pdf",
-        answerUrl: "papers/sample-answer.pdf"
+        paperUrl: "",
+        answerUrl: ""
     },
     {
         id: 2,
