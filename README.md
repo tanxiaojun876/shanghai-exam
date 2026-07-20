@@ -33,3 +33,8 @@ shanghai-exam
 ├── papers
 ├── .gitignore
 └── README.md
+## 开源许可证
+
+本项目的网站程序代码采用 MIT License 开源。
+
+试卷、答案及解析等第三方资料不适用本许可证，其版权归原权利人所有。
